@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página HTML de Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de usuários</h1><hr>
+    <form method="post" style="margin-left: auto; margin-right: auto;">
+        <p>
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="name" required>
+        </p>
+        <p>
+            <label for="city">Cidade: </label>
+            <input type="text" name="city" id="city" required>
+        </p>
+        <p>
+            <label for="year">Ano de nascimento: </label>
+            <input type="number" step="1" name="year" id="year" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
